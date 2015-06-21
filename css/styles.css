@@ -1,107 +1,253 @@
-.header-image {
-	background-color: #CFB536;
-	background-position: top;
-	height: 300px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
 	display: block;
-	width: 100%;
-	text-align: center;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.headline {
-	padding: 50px 0;
+body {
+  background-color: #272D2D;
+  font-family: Raleway;
 }
 
-.headline > .container > h1, h2 {
-	font-family: 'arvil_sansregular';
-	color:black;
-}
-
-.headline > .container > h1 {
-	font-size: 100px;
-}
-
-.headline > .container > h2 {
-	margin-top: -15px;
-	font-size: 72px;
-}
-
-.featurette-divider {
-	margin: 20px 0;
-}
-.featurette {
-	overflow: hidden; 
-}
-
-.featurette-image.pull-left {
-	margin-right: 40px;
-}
-.featurette-image.pull-right {
-	margin-left: 40px;
-}
-
-.featurette-heading {
-	font-size: 50px;
-}
-
-footer {
-	margin: 50px 0;
-}
-
-/* RESPONSIVE CSS */
-
-@media (max-width: 1200px) {
-
-.headline > .container > h1 {font-size: 140px;}
-.headline > .container > h2 {font-size: 63px;}
-.featurette-divider {margin: 50px 0;}
-.featurette-image.pull-left {margin-right: 20px;}
-.featurette-image.pull-right {margin-left: 20px;}
-.featurette-heading {font-size: 35px;}
+#todaybutton {
 
 }
 
-@media (max-width: 991px) {
+#splash {
+  height: 100%;
+  background: url(../img/masthead.jpg)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
 
-.headline > .container > h1 {font-size: 105px;}
-.headline > .container > h2 {font-size: 50px;}
-.featurette-divider {margin: 40px 0;}
-.featurette-image {max-width: 50%;}
-.featurette-image.pull-left {margin-right: 10px;}
-.featurette-image.pull-right {margin-left: 10px;}
-.featurette-heading {font-size: 30px;}
+#splash-img {
+  height: 30%;
+  margin: 1em;
+}
+
+#splash > h1 {
+  color: #ecf0f1;
+  font-weight: 700;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: #FCD757;
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.btn-default {
+  width: 70%;
+  color: #272D2D;
+  background-color: #FCD757;
+  font-weight: 800;
+  font-size: 1.5em;
+	border-radius: 7.5px;
+  border: none;
+  outline: none;
+}
+
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover {
+  outline: none;
+  background-color: #DBB64D;
+  -webkit-transition: background-color 100ms linear;
+  -moz-transition: background-color 100ms linear;
+  -o-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
 
 }
 
-@media (max-width: 768px) {
-	
-.container {margin: 0 15px;}
-.featurette-divider {margin: 40px 0;}
-.featurette-heading {font-size: 25px;}
+.navbar-inverse {
+  border: none;
+  background-color: #1c2020;
+  color: #ecf0f1;
+  height: 60px;
+  /*padding-top: 5px;*/
+}
+
+.navbar-brand {
+	margin-top: 5px;
+  font-weight: 600;
+}
+
+.navbar-right {
+	margin-top: 5px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #FCD757;
+	color: #272D2D;
+}
+
+.active > a {
 
 }
 
-
-@media (max-width: 668px) {
-
-.headline > .container > h1 {font-size: 70px;}
-.headline > .container > h2 {font-size: 32px;}
-.featurette-divider {margin: 30px 0;}
-
+a {
+  border-radius: 7.5px;
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
 }
 
-@media (max-width: 640px) {
-
-.headline {padding: 75px 0 25px 0;}
-.headline > .container > h1 {font-size: 60px;}
-.headline > .container > h2 {font-size: 30px;}
-
+.container {
+  width: 95%;
 }
 
-@media (max-width: 375px) {
+.body-section {
+  margin-bottom: 60%;
+}
 
-.featurette-divider {margin: 10px 0;}
-.featurette-image {max-width: 100%;}
-.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
-.featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+.section-title {
+  color: #ecf0f1;
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 0.9em;
+}
+
+h2 {
+  color: #FCD757;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 0.45em;
+}
+
+p {
+  color: #ecf0f1;
+  font-weight: 100;
+  margin-bottom: 0.9em;
+}
+
+/*@media all and (min-width: 481px) and (max-width: 720px) {
+  h2{font-size:0.75em;}
+  #canvas{opacity:0;}
+}*/
+
+/*@media all and (min-width: 321px) and (max-width: 480px) {
+  h1{font-size:2em;}
+  h2{font-size:0.6em;}
+  li{font-size:1.6em;}
+  #canvas{opacity:0;}
+}*/
+
+@media all and (min-width: 400px)  {
+  #splash-img {
+    height: 40%;
+  }
+  #splash > h1 {
+    font-size: 6em;
+  }
+  .btn-default {
+    font-size: 2.5em;
+  }
+  .section-title {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.7em;
+  }
+}
+@media all and (min-width: 600px)  {
+	#splash-img {
+		height: 40%;
+	}
+	#splash > h1 {
+		font-size: 4em;
+	}
+  .btn-default {
+    width: 10em;
+		font-size: 1.5em;
+  }
+  .section-title {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+}
+@media all and (min-width: 1000px) {
+	#splash-img {
+		margin-top: 5%;
+	}
+	.btn-default {
+		width: 8em;
+		font-size: 1.5em;
+	}
+	.section-title {
+		margin-bottom: 0.5em;
+	}
+  .container {
+    width: 40%;
+		max-width: 33em;
+  }
+	h2 {
+		font-size: 2em;
+	}
+  .container-fluid {
+    width: 42%;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+}
+@media all and (min-width: 1400px) {
 
 }
