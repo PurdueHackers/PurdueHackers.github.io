@@ -3813,7 +3813,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
 }
 
 .nav > li.disabled > a {
@@ -4182,8 +4181,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: left;
-  padding: 10px 10px;
-  font-size: 20px;
+  padding: 15px 15px;
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -4235,7 +4234,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-  font-size: 16px;
 }
 
 @media (max-width: 767px) {
@@ -4491,22 +4489,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #272d2d;
-  border-color: #0a0c0c;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-width: 2px;
-  border-radius: 0px;
-  font-family: Ubuntu
-  , sans-serif;
-  margin: 0;
+  background-color: #222222;
+  border-color: #080808;
 }
 
 .navbar-inverse .navbar-brand {
-  margin-top: 10px;
-  color: #e1e3e4;
-  transition-duration: 0.3s;
+  color: #999999;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4520,16 +4508,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #e1e3e4;
-  transition-duration: 0.3s;
-  height: 70px;
-  padding-top: 25px;
+  color: #999999;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
