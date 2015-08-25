@@ -47,6 +47,7 @@ body {
 	padding-top: 20px !important;
 	-webkit-transition: color 300ms;
   -moz-transition: color 300ms;
+  -ms-transition: color 300ms;
   -o-transition: color 300ms;
   transition: color 300ms;
 }
@@ -96,7 +97,7 @@ body {
 
 .section-container h1 {
 	font-family: Montserrat;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .about-img {
@@ -121,6 +122,15 @@ body {
 	font-size: 1.3em;
 	color: #fff;
 	background-color: #eeda69;
+}
+
+.buttn:hover {
+  background-color: #e6d36a;
+  -webkit-transition: background-color 300ms;
+  -moz-transition: background-color 300ms;
+  -ms-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
 }
 
 /*----------- EVENT SECTION STYLING --------*/
